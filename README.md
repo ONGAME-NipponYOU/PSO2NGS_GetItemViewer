@@ -24,7 +24,7 @@ PSO2 NGS で拾ったアイテムとメセタを、ツールを起動してか�
 
 ## 使い方
 
-1. [Releases](../../releases) から最新の `PSO2NGS取得アイテム集計ツール.exe` をダウンロード
+1. [Releases](../../releases) から最新の `PSO2NGS_GetItemViewer.exe` をダウンロード
 2. 好きなフォルダに置いてダブルクリックで起動
 3. 「新規ドロップを待機中...」と表示されたら準備完了。あとはいつも通り遊ぶだけです
 
@@ -61,7 +61,7 @@ PSO2 NGS で拾ったアイテムとメセタを、ツールを起動してか�
 ```powershell
 Install-Module -Name ps2exe -Scope CurrentUser
 ps2exe -inputFile ".\PSO2NGS_GetItemViewer.ps1" `
-       -outputFile ".\PSO2NGS取得アイテム集計ツール.exe" `
+       -outputFile ".\PSO2NGS_GetItemViewer.exe" `
        -iconFile ".\icon.ico" `
        -title "PSO2NGS取得アイテム集計ツール" `
        -description "ツール起動後からのドロップアイテムとメセタを集計します" `
