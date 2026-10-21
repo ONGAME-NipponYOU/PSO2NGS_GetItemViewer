@@ -1,0 +1,14 @@
+# このフォルダでは「公開するファイルだけ」を下で許可しています。
+# 古いバージョンの .ps1、.bat、EXE、自分用の config.ini などは
+# ここに書かれていないので、GitHubには上がりません。
+*
+!.gitignore
+!README.md
+!LICENSE
+!config.example.ini
+!PSO2NGS_GetItemViewer.ps1
+!icon.ico
+
+# スクリーンショット用フォルダ（README に画像を載せる場合）
+!image/
+!image/**
